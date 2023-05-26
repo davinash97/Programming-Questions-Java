@@ -1,0 +1,6 @@
+*.class
+*temp*
+*/*class
+*/*temp*
+lib
+.vscode

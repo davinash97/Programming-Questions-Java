@@ -22,7 +22,7 @@ Easy - Intermediate Programming Questions taken from ChatGPT
 
 9. Write a function that takes an array of numbers as input and returns the second largest number in the array. For example, if the input array is [3, 5, 1, 4, 6, 2], the function should return 5.
 
-10. Write a function that finds the largest value from a given array wihtout sorting the array.
+10. Write a function that finds the largest value from a given array without sorting the array.
 
 11. Write a function called sumDigits that takes an integer as input and returns the sum of its digits. For example, sumDigits(123) should return 6 (since 1 + 2 + 3 = 6).
 
