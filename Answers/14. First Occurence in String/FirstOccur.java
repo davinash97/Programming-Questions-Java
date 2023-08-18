@@ -7,7 +7,6 @@ public class FirstOccur {
         System.out.print("Enter a String\t: ");
         try (Scanner input = new Scanner(System.in)) {
             String query = input.nextLine();
-            input.close();
             // String query = "banana";
             System.out.printf("\'%s\' is the first Occurence in \'%s\'.", firstOccur(query), query);
         }
