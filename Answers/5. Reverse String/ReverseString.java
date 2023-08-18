@@ -8,7 +8,7 @@ public class ReverseString {
             System.out.printf("Reverse of %s is %s.", query,reverseString(query));
         }
     }
-    public static String reverseString(String query) {
+    static String reverseString(String query) {
         if (query == null || query.isEmpty()) {
             return query;
         }

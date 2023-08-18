@@ -12,7 +12,7 @@ public class FirstOccur {
             System.out.printf("\'%s\' is the first Occurence in \'%s\'.", firstOccur(query), query);
         }
     }
-    public static String firstOccur(String query) {
+    static String firstOccur(String query) {
         query = query.toLowerCase();
         Set<Character> data = new HashSet<Character>();
         StringBuilder result = new StringBuilder();

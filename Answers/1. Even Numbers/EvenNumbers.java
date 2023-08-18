@@ -15,7 +15,7 @@ public class EvenNumbers {
             e.printStackTrace();
         }
     }
-    public static int evenNum(int[] numbers) {
+    static int evenNum(int[] numbers) {
         int temp = 0;
         for(int i = 0; i < numbers.length; i++) {
             if(numbers[i] % 2 == 0) temp += numbers[i];

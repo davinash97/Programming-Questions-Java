@@ -15,7 +15,7 @@ public class LongestString {
             System.out.printf("The Longest String in the given Array is %s", longestString(strings));
         }
     }
-    public static String longestString(String[] strings) {
+    static String longestString(String[] strings) {
         String result = strings[0];
         for(String i : strings) if(result.length() < i.length()) result = i;
         return result;
