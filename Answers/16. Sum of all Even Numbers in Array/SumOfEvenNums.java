@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SumOfEven {
+public class SumOfEvenNums {
     public static void main(String[] args) {
         System.out.print("Enter the size of Array\t: ");
         try (Scanner input = new Scanner(System.in)) {
